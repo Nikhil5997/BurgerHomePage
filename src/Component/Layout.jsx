@@ -15,7 +15,7 @@ const Layout = () => {
             <Link to="/order"><AiOutlineMenuFold size={26}/></Link>
           </li>
           <li>
-            <Link to="/contact"><BsCartCheck size={26}/></Link>
+            <Link to="/family"><BsCartCheck size={26}/></Link>
           </li>
           <li>
             <Link to="/contact"><VscSignIn size={26}/></Link>

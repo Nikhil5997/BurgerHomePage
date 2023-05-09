@@ -4,6 +4,7 @@ import Home from "./Component/Home";
 import Order from "./Component/Order";
 import Contact from "./Component/Contact"
 import Layout from "./Component/Layout";
+import Family from "./Component/family";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Route index element={<Home />} />
           <Route path="/order" element={<Order />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/family" element={<Family />} />
         </Route>
       </Routes>
     </BrowserRouter>

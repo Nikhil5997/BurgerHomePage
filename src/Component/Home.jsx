@@ -47,6 +47,7 @@ function Home() {
             </Link>
           </div>
           <div className="h-40 w-40 md:h-48 md:w-47 lg:w-48 xl:w-64 2xl:w-80 2xl:h-80 bg-black bg-opacity-80 rounded-md text-white">
+            <Link to="family">
             <CiBurger
               size={90}
               className="mx-7 my-6 xl:mx-20  hover:text-yellow-300"
@@ -54,6 +55,7 @@ function Home() {
             <h5 className="text-white  xl:text-2xl font-serif text-center  hover:text-yellow-300">
               family Combo
             </h5>
+            </Link>
           </div>
           <div className="h-40 w-40 md:h-48 md:w-47 lg:w-48 xl:w-64 2xl:w-80 2xl:h-80 bg-black bg-opacity-80 rounded-md text-white">
             <MdOutlineLocalOffer
