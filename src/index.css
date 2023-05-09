@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  background-image: url(./img/Burger.jpg);
-    background-size: cover;
-background-repeat: no-repeat;
-  }
+body {
+  background-image: url(./img/Burgerk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
